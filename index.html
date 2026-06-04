@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Practice</title>
+    <link rel="stylesheet" href="./style.css">
+
+
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+      <img src="./imagens/icon-icons (3).png"><div class="logo">InteractJS</div>
+
+      <ul>
+        <li><a href="#">Features</a></li>
+        <li><a href="#">Demo</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+
+        <button>Get Started</button>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>
+      Practice JavaScript <br>
+      <span>With Interactive Elements</span>
+    </h1>
+
+    <p>
+      A simple landing page featuring real JavaScript interactions.
+    </p>
+
+    <div class="buttons">
+      <button>Try Interactive Demo</button>
+      <button>View Features</button>
+    </div>
+  </section>
+
+  <section class="features">
+    <h2>Interactive Features</h2>
+
+    <div class="cards">
+
+      <div class="card">
+        <img src="./imagens/icon-icons (2).png" alt=""><h3>JavaScript Logic</h3>
+        <p>Counter functionality and events.</p>
+      </div>
+
+      <div class="card">
+        <img src="./imagens/icon-icons.png" alt=""><h3>CSS Animations</h3>
+        <p>Hover effects and transitions.</p>
+      </div>
+
+      <div class="card">
+        <img src="./imagens/icon-icons (1).png" alt=""><h3>Form Validation</h3>
+        <p>Validation with error messages.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="counter-section">
+    <h2>Try It Yourself</h2>
+
+    <div class="counter-box">
+      <h3>Interactive Counter</h3>
+
+      <span id="count">0</span>
+
+      <div class="controls">
+        <button onclick="decrease()">-</button>
+        <button onclick="resetCounter()">Reset</button>
+        <button onclick="increase()">+</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact">
+    <form>
+      <h2>Get In Touch</h2>
+
+      <input type="text" placeholder="Your Name">
+
+      <input type="email" placeholder="your@email.com">
+
+      <textarea placeholder="Your Message"></textarea>
+
+      <button type="submit">
+        Send Message
+      </button>
+    </form>
+  </section>
+
+  <footer>
+    Built for practicing JavaScript, HTML and CSS
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
